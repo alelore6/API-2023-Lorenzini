@@ -1,0 +1,16 @@
+v0.1: 	aggiunge e demolisce stazioni senza auto (errore se arg = " ")
+v0.2: 	la sottofunzione "ricerca-iter" dà seg-fault se il secondo argomento è NULL
+v0.3: 	fa tutto tranne i percorsi da dx a sx
+v0.4: 	tentativo di pianifica-percorso (in alcuni dà seg fault)
+v0.4.1: tolto la funzione pow e messo strlen
+v0.4.2: tolto l'ordine dalle liste e funziona perfettamente solo in andata (anche velocemente)
+v0.4.3: si cerca di implementare il ritorno
+v0.5: 	correzioni di alcuni casi e, nel caso da dx a sx, trova un percorso ma non è detto sia quello minimo (garantisce però l'esistenza o meno)
+v0.5.1: correzione di alcuni bug (prec non collegati e quindi rimozione non corretta) e aggiunta limite massimo auto (512)
+v1.0: 	output corretto (passa Open)
+v2.0: 	passa il 18 a stento (poco meno di 19 sec) (il 18 è a 19)
+v3.0: 	passa il 21 (poco meno di 12 sec) (il 21 è a 15)
+v3.1: 	fa circa 11 sec
+v3.2: 	si cerca di migliorare :_(
+v3.3: 	tolte le liste e usati i vettori
+v4.0: 	30L raggiunto e progetto finito :D
